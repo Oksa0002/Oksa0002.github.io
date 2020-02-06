@@ -1,0 +1,485 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* I choose "body" to give a  background colour to the webpage*/
+body {
+    background-color: #f7f7ff;
+}
+
+/* I choose "logo" class to style a D letter logo of the webpage*/
+.logo {
+    width: 120px;
+    padding-left: 50px;
+}
+
+/* I choose "h1" to style first information tag of the webpage*/
+h1 {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+/* I choose "h1" to style second information tag of the webpage*/
+h2 {
+    font-size: 30px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    margin-right: 60px;
+}
+
+.image {
+    margin-right: 100px;
+    width: 80%;
+}
+
+/* I choose "h3" to style form information tag of the webpage*/
+h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* I choose "h4" to style form information tag of the webpage*/
+h4 {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+
+}
+
+/*styling .main-container class of the webpage*/
+.main-container {
+    padding-left: 65px;
+}
+
+/* I'm targeting "class form" to style main form of the webpage*/
+.form {
+    width: 300px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 20px;
+    padding-left: 20px;
+    box-shadow: 2px 5px 15px #888888;
+}
+
+/* Targeting id to give style to the inputs of the main page form*/
+#firstName,
+#lastName,
+#tel,
+#em {
+    width: 85%;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 6px 0 10px 0;
+    background-color: rgb(238, 236, 236);
+    font-size: 12px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+/*styling checkbox information line tag*/
+span {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+/*styling button of the main-container form*/
+.button {
+    background-color: #57eeab;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 67px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+/* I choose "h5" to style form information tag of the webpage*/
+h5 {
+    padding: 15px 0 20px 0;
+    font-size: 12px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    margin-right: 60px;
+}
+
+/* I choose "strong" to style form information tag of the webpage*/
+strong {
+    color: #ff8480;
+}
+
+/* I choose "h6" to style footer form information tag of the webpage*/
+h6 {
+    margin: 0 190px 0 80px;
+    padding-bottom: 10px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* I choose "p" to style footer form information tag of the webpage*/
+p {
+    margin: 0 100px 0 80px;
+    padding-bottom: 10px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+
+}
+
+/* I choose "container" class to style footer form of the webpage, using grid to give the right position*/
+.footerform {
+    display: grid;
+    grid-template-columns: 30% 65%;
+    margin: 0 80px;
+    justify-content: space-between;
+}
+
+/* I choose "time" class to style footer form hours input of the webpage*/
+footer .time {
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* I choose "city" class to style footer form city input of the webpage*/
+footer .city {
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    width: 84%;
+}
+
+/* I choose "calculate" class to style footer form button of the webpage*/
+.calculate {
+    width: 300%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #ff8480;
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0 10px 0;
+}
+
+/* I choose "icons classes elements" to give space between the icons of the webpage*/
+.facebook,
+.instagram,
+.twitter,
+.linkedin {
+    margin-right: 45px;
+}
+
+/* I choose "icons" class to style icons of the webpage*/
+.icons {
+    margin-left: 100px;
+}
+
+/*styling footer of the site*/
+.container {
+    background-color: #fffd8c;
+    padding-top: 20px;
+}
+
+
+@media screen and (min-width: 768px) {
+    
+   /*D logo letter styling*/
+    .logo {
+        padding-left: 100px;
+    }
+
+    .main-container {
+        padding-left: 100px;
+    }
+
+    h1 {
+        line-height: 90px;
+    }
+
+    h2 {
+        font-size: 27px;
+    }
+
+    /*main form styling*/
+    .form {
+        width: 500px;
+    }
+    /*input styling*/
+    #firstName,
+    #lastName,
+    #tel,
+    #em {
+        width: 450px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    /*main-container button form styling*/
+    .button {
+        width: 470px;
+        font-size: 30px;
+    }
+
+    h5 {
+        margin-left: 30px;
+    }
+
+    /*footer form styling*/
+    .footerform {
+        margin-left: 120px;
+    }
+
+    h6,
+    p {
+        padding-left: 40px;
+    }
+
+    .icons {
+        margin-left: 230px;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .logo {
+        width: 100px;
+    }
+
+    .main-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+       
+    }
+
+    .image {
+        width: 130%;
+
+    }
+
+    h1 {
+        font-size: 55px;
+        line-height: 60px;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .form {
+        width: 350px;
+    }
+
+    /*style of the inputs of the main page form*/
+    #firstName,
+    #lastName,
+    #tel,
+    #em {
+        width: 305px;
+    }
+
+    .button {
+        width: 325px;
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    h5 {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+    h6 {
+        margin-top: 20px;
+    }
+
+    strong {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+/*footer form class styling, position changing*/
+    .footerform {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    footer {
+        display: flex;
+    }
+
+    footer .time {
+        width: 80px;
+        margin-right: 15px;
+    }
+
+    footer .city {
+        width: 150px;
+        margin-right: 15px;
+    }
+
+    .calculate {
+        width: 150px;
+    }
+
+    .icons {
+        margin-top: 60px;
+
+    }
+
+    .container {
+        padding-bottom: 20px;
+    }
+}
